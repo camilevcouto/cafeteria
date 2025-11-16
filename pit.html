@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coffee Bronw</title>
+    </head>
+    
+    <aside id="cart-sidebar" class="hidden">
+        <div class="cart-header">
+            <h3>Seu Pedido</h3>
+            <button id="close-cart-btn">X</button>
+        </div>
+        
+        <div id="cart-items-container">
+            <p id="empty-cart-message">Seu carrinho está vazio. Adicione itens do cardápio!</p>
+        </div>
+
+        <div class="cart-summary">
+            <p>Total: R$ <span id="cart-total">0.00</span></p>
+            <button id="checkout-btn">Finalizar Pedido</button>
+        </div>
+    </aside>
+
+    <script src="script.js"></script> 
+</body>
+</html>
+<body>
+    
+
+    <header>
+        <h1>Coffee Bronw</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#menu">Cardápio</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <div id="cart-icon">
+        🛒 Carrinho (<span id="cart-count">0</span>)
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Sua melhor experiência em Café!</h2>
+            <p> Seu cantinho de aconchego e sabor, agora online.</p>
+
+            <a href="#menu">Conheça nosso Cardápio</a>
+        </section>
+
+        <section id="menu">
+            <h2>Cardápio</h2>
+            
+            <article class="produto">
+                <img src="cafepreto.jpg" class="img-destaque">
+                <h3>Café Preto</h3>
+                <p>Um clássico intenso.</p>
+                <p>Preço: R$ 4,90</p>
+                <button>Adicionar ao Pedido</button>
+            </article>
+            
+            <article class="produto">
+                <img src="cafecomleite.jpg" alt="Xícara de café quente com grãos ao redor" class="img-destaque">
+                <h3>Café com leite</h3>
+                <p>O clássico café com leite.</p>
+                <p>Preço: R$ 6,00</p>
+                <button>Adicionar ao Pedido</button>
+            </article>
+
+                 <article class="produto">
+                <img src="cappucino.png" alt="Xícara de café quente com grãos ao redor" class="img-destaque">
+                <h3>Capuccino Cremoso</h3>
+                <p>Uma mistura de café, leite vaporizado e uma pitada de canela.</p>
+                <p>Preço: R$ 10,00</p>
+                <button>Adicionar ao Pedido</button>
+            </article>
+
+            <article class="produto">
+                <img src="chocolatequente.jpg" alt="Xícara de café quente com grãos ao redor" class="img-destaque">
+                <h3>Chocolate quente</h3>
+                <p>Bebida reconfortante feita com chocolate e aquecido com leite.</p>
+                <p>Preço: R$ 15,00</p>
+                <button>Adicionar ao Pedido</button>
+
+                
+            </section>
+
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Fundada em 2025, a Coffee Bronw nasceu de uma paixão simples, mas profunda: Oferecer uma experiência de café autêntica e inesquecível. Acreditamos que cada xícara deve ser uma celebração.</p>
+            </section>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Coffee Bronw. Todos os direitos reservados.</p>
+    </footer>
+
+    </body>
+</html>
